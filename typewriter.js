@@ -7,8 +7,8 @@ const typewriter = () => {
       process.stdout.write(char);
     }, ms += 50);
   }
-  setTimeout(() => {
-    console.log('\n');
+   setTimeout(() => {
+    console.log();
   }, 1600);
 };
 
