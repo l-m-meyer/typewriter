@@ -1,5 +1,5 @@
 const typewriter = () => {
-  const sentence = 'hello there from lighthouse labs';
+  const sentence = 'hello there from lighthouse labs\n';
   
   let ms = 0;
   for (const char of sentence) {
@@ -7,9 +7,5 @@ const typewriter = () => {
       process.stdout.write(char);
     }, ms += 50);
   }
-   setTimeout(() => {
-    console.log();
-  }, 1600);
 };
-
 typewriter();
